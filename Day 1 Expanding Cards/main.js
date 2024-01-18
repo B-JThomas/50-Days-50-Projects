@@ -1,5 +1,5 @@
-const container = document.querySelector('.carosel');
-const panels = document.querySelectorAll('.card-container');
+const container = document.querySelector('.container');
+const panels = document.querySelectorAll('.panel');
 
 container.addEventListener('click', function (e) {
   let clickedPanel = null;
