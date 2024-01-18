@@ -1,0 +1,51 @@
+.img1 {
+    background-image: url(images/1.jpg);
+}
+
+.img2 {
+    background-image: url(images/2.jpg);
+}
+
+.img3 {
+    background-image: url(images/3.jpg);
+}
+
+.img4 {
+    background-image: url(images/4.jpg);
+}
+
+.img5 {
+    background-image: url(images/5.jpg);
+}
+h2 {
+    color: transparent;
+}
+
+#container {
+    padding-top: 10em;
+}
+
+.card-container {
+    min-width: 8rem;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5em;
+}
+
+.carosel {
+    display: flex;
+    gap: 2em;
+    padding: 5em;
+    justify-content: center;
+}
+
+.active {
+    min-width: 30rem;
+    width: auto;
+}
+
+.active h2 {
+    color: white;
+}
